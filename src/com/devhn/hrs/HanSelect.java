@@ -7,7 +7,7 @@ public class HanSelect {
         init();
     }
 
-    private static void init() {
+    public static void init() {
         ModeDetector md = new ModeDetector();
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +18,8 @@ public class HanSelect {
         String input = scanner.nextLine();
 
         md.changeModeTo(input);
+
+        scanner.close();
 
         System.out.println(Util.mode);
     }
