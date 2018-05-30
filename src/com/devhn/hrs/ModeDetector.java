@@ -6,13 +6,15 @@ class ModeDetector {
 
         switch (mode) {
             case "섞기":
-                Util.mode = "섞기";
-                mp.play(Util.mode);
+                Util.MODE = "섞기";
+                mp.play(Util.MODE);
                 break;
+
             case "뽑기":
-                Util.mode = "뽑기";
-                mp.play(Util.mode);
+                Util.MODE = "뽑기";
+                mp.play(Util.MODE);
                 break;
+
             default:
                 System.out.println("Error: #00002 - 잘못된 키워드를 입력하셨습니다.");
                 break;
