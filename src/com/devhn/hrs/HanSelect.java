@@ -16,11 +16,10 @@ public class HanSelect {
         System.out.println("섞기 / 뽑기");
 
         String input = scanner.nextLine();
-
         md.changeModeTo(input);
 
         scanner.close();
 
-        System.out.println(Util.mode);
+        System.out.println(Util.MODE);
     }
 }
