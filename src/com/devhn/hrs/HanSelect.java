@@ -19,7 +19,5 @@ public class HanSelect {
         md.changeModeTo(input);
 
         scanner.close();
-
-        System.out.println(Util.MODE);
     }
 }
